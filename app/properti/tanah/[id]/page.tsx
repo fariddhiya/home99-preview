@@ -9,11 +9,11 @@ import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import Header from "@/components/ui/header"
 
-export default function TanahDetailPage({ params }: { params: { id: string } }) {
+export default function TanahDetailPage() {
   // Dalam implementasi nyata, data akan diambil dari database berdasarkan ID
   // Untuk contoh ini, kita gunakan data statis
   const propertyData = {
-    id: params.id,
+    id: 1,
     title: "Tanah Komersial Kemang",
     price: "Rp 12 Milyar",
     location: "Jl. Kemang Raya No. 88, Kemang, Jakarta Selatan",

@@ -511,15 +511,3 @@ function TanahCard({ title, price, location, area, features, image }: TanahCardP
     </Card>
   )
 }
-
-function getPropertyImage(index: number): string {
-  const images = [
-    "/ruko2.jpg",
-    "/ruko3.jpg",
-    "/rumah1.jpg",
-    "/rumah2.jpg",
-    "/rumah3.jpg",
-    "/tanah3.jpg"
-  ]
-  return images[index % images.length]
-}

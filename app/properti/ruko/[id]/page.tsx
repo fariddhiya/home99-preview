@@ -22,11 +22,11 @@ import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import Header from "@/components/ui/header"
 
-export default function RukoDetailPage({ params }: { params: { id: string } }) {
+export default function RukoDetailPage() {
   // Dalam implementasi nyata, data akan diambil dari database berdasarkan ID
   // Untuk contoh ini, kita gunakan data statis
   const propertyData = {
-    id: params.id,
+    id: 1,
     title: "Ruko 3 Lantai Fatmawati",
     price: "Rp 3.2 Milyar",
     location: "Jl. Fatmawati No. 45, Fatmawati, Jakarta Selatan",

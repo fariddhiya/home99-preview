@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Building, Home, MapPin, Phone, Mail, Users, Target, Award, Clock, CheckCircle2 } from "lucide-react"
+import { Home, MapPin, Phone, Mail, Users, Target, Award, Clock, CheckCircle2 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -306,8 +306,8 @@ export default function TentangKamiPage() {
                         ))}
                     </div>
                     <p className="text-muted-foreground italic">
-                      "Home99 membantu saya menemukan rumah impian di Kebayoran Baru. Proses transaksi sangat lancar dan
-                      transparan. Sangat merekomendasikan layanan mereka!"
+                      &quot;Home99 membantu saya menemukan rumah impian di Kebayoran Baru. Proses transaksi sangat lancar dan
+                      transparan. Sangat merekomendasikan layanan mereka!&quot;
                     </p>
                     <div>
                       <div className="font-bold">Andi Pratama</div>
@@ -342,8 +342,8 @@ export default function TentangKamiPage() {
                         ))}
                     </div>
                     <p className="text-muted-foreground italic">
-                      "Sebagai investor properti, saya sangat puas dengan layanan Home99. Mereka memahami kebutuhan
-                      investasi saya dan memberikan rekomendasi properti yang tepat."
+                      &quot;Sebagai investor properti, saya sangat puas dengan layanan Home99. Mereka memahami kebutuhan
+                      investasi saya dan memberikan rekomendasi properti yang tepat.&quot;
                     </p>
                     <div>
                       <div className="font-bold">Maya Sari</div>
@@ -378,8 +378,8 @@ export default function TentangKamiPage() {
                         ))}
                     </div>
                     <p className="text-muted-foreground italic">
-                      "Ruko yang saya beli melalui Home99 memiliki lokasi strategis dan sesuai dengan kebutuhan bisnis
-                      saya. Tim Home99 sangat profesional dan membantu."
+                      &quot;Ruko yang saya beli melalui Home99 memiliki lokasi strategis dan sesuai dengan kebutuhan bisnis
+                      saya. Tim Home99 sangat profesional dan membantu.&quot;
                     </p>
                     <div>
                       <div className="font-bold">Hendra Wijaya</div>

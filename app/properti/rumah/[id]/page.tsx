@@ -1,8 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import {
-  Building,
-  MapPin,
   Phone,
   Mail,
   ChevronLeft,
@@ -12,6 +10,7 @@ import {
   BedDouble,
   Bath,
   Maximize,
+  MapPin,
 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -21,11 +20,11 @@ import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import Header from "@/components/ui/header"
 
-export default function RumahDetailPage({ params }: { params: { id: string } }) {
+export default function RumahDetailPage() {
   // Dalam implementasi nyata, data akan diambil dari database berdasarkan ID
   // Untuk contoh ini, kita gunakan data statis
   const propertyData = {
-    id: params.id,
+    id: 1,
     title: "Rumah Mewah Kebayoran Baru",
     price: "Rp 5.5 Milyar",
     location: "Jl. Kebayoran Baru No. 123, Kebayoran Baru, Jakarta Selatan",
@@ -126,7 +125,7 @@ export default function RumahDetailPage({ params }: { params: { id: string } }) 
         {/* Back Button & Actions */}
         <div className="container py-4">
           <div className="flex justify-between items-center">
-            <Button variant="ghost" size="xs" asChild>
+            <Button variant="ghost" size="sm" asChild>
               <Link href="/properti/rumah">
                 <ChevronLeft className="mr-2 h-4 w-4" />
                 Kembali ke Daftar Rumah
